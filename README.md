@@ -1,6 +1,6 @@
 # Juego - Android
 
-Juego para Android realizado en la asignatura ACDAT del Grado Superior DAM en el curso 2013/2014, I.E.S. Zaidín-Vergeles.
+Juego para Android realizado en la asignatura PMDMO del Grado Superior DAM en el curso 2013/2014, I.E.S. Zaidín-Vergeles.
 
 - Desarrollado con Eclipse.
 
