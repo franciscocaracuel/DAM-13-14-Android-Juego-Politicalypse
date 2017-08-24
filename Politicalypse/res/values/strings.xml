@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Politicalypse</string>
+    
+    <string name="play">JUGAR</string>
+    <string name="exit">SALIR</string>
+    <string name="retry">REINTENTAR</string>
+    
+    <string name="you_lost">¡Has perdido!</string>
+    <string name="political_killed_1">Has matado a </string>
+    <string name="political_killed_2">políticos</string>
+    <string name="waves">Oleadas: </string>
+    <string name="total_punctuation">Puntuación total: </string>
+    
+    <string name="dialog_salir_title">¿Deseas salir del juego?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+ 	<string name="cancel">Cancelar</string>
+    
+    <string name="dialog_info_title">Información</string>
+    
+    <string name="my_name">Desarrollado por Francisco J. Caracuel</string>
+    <string name="info_ies">Este juego es solo una práctica de clase. El centro queda totalmente desvinculado de la temática del mismo.</string>
+    <string name="info_teacher">Todo mi agradecimiento a mi profesor que me ha enseñado de la mejor manera posible el mundo Android</string>    
+    
+    <string name="info_game_1">Cómo jugar:</string>
+    <string name="info_game_2">1. Evita que el ejército de Rajoy llegue al Congreso de los diputados.</string>
+    <string name="info_game_3">2. Para evitarlo mantén pulsado sobre ellos y arrástralos hacia su lado.</string>
+    <string name="info_game_4">3. Si alguno llega a la puerta del Congreso has perdido.</string>
+    
+    <string name="info_error">En estado Beta.</string>
+    <string name="info_dis">Disculpen los posibles errores.</string>
+
+</resources>

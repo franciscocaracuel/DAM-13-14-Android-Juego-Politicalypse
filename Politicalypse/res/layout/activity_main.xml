@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlGeneral"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="bottom"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/llSurface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/btPlay"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="play"
+            android:layout_marginBottom="5dp"
+            android:textColor="#FFF"
+            android:background="@drawable/background_selector_button"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/btExit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="exit"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFF"
+            android:background="@drawable/background_selector_button"
+            android:text="@string/exit" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPunctuation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+       	android:background="@drawable/background_punctuation"
+       	android:layout_marginRight="10dp"
+       	android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvWave"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvPunctuation"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+    	android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/tablon" />
+
+    <LinearLayout
+        android:id="@+id/llYouLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:background="@drawable/background_you_lost"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvYouLost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="25sp"
+                android:textColor="#FFF"
+                android:text="@string/you_lost" />
+
+            <TextView
+                android:id="@+id/tvPoliticalKilled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFF"
+                android:text="@string/political_killed_1" />
+
+            <TextView
+                android:id="@+id/tvNumberWaves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFF"
+                android:text="@string/waves" />
+
+            <TextView
+                android:id="@+id/tvTotalPunctuation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#FFF"
+                android:text="@string/total_punctuation" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+                
+                 <Button
+                    android:id="@+id/btExitRetry"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:onClick="exit"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:drawable/ic_input_delete" />
+
+                <Button
+                    android:id="@+id/btRetry"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:drawable/ic_menu_rotate"
+                    android:onClick="retry" />
+
+               
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#99000000"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btPlayPause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_media_pause"
+        android:onClick="playPause" />
+
+    <Button
+        android:id="@+id/btInfo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:onClick="info"
+        android:background="@android:drawable/ic_dialog_info" />
+
+</RelativeLayout>
